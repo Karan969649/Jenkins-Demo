@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Code Le Aao') {
             steps {
-                git branch: 'main', url: 'https://github.com/TUMHARA-USERNAME/TUMHARA-REPO.git'
+                git branch: 'main', url: 'https://github.com/Karan969649/Jenkins-Demo.git'
             }
         }
         stage('Docker Image Banao') {
